@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
     public static float bs = -1;
 
     public static float bi = 4;

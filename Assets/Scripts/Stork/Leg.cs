@@ -5,7 +5,9 @@ using UnityEngine;
 public class Leg : MonoBehaviour
 {
     public GameObject body;
+    public Animator anim;
     public float bodyZ;
+    public float speed;
 
     private void Start()
     {
@@ -14,6 +16,8 @@ public class Leg : MonoBehaviour
 
     void Update()
     {
+        speed = 1 + (GameManager.bi / 100) + (Mathf.Abs(GameManager.bs) / 1000);
+        anim.speed = speed <= 2.5f ? speed : 2.5f;
         bodyZ = body.transform.rotation.eulerAngles.z;
         if (bodyZ<30||bodyZ>330)
         {

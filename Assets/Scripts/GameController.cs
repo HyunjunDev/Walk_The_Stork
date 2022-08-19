@@ -46,6 +46,8 @@ public class GameController : MonoBehaviour
     {
         while(isGameOn)
         {
+            Debug.Log("bi: " + GameManager.bi);
+            //Debug.Log("bs: " + GameManager.bs);
             GameManager.bi += 0.001f;
             GameManager.bs += (stork.transform.rotation.z + stork.transform.rotation.z > 0 ? 2 : -2) * GameManager.bi * 0.01f;
             yield return new WaitForSeconds(0.001f);

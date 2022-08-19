@@ -492,7 +492,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 1365716872}
+  anim: {fileID: 344774810}
   bodyZ: 0
+  speed: 0
 --- !u!1 &513846646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,9 +1782,10 @@ MonoBehaviour:
   backgrounds:
   - {fileID: 553592394}
   - {fileID: 1780561461}
-  speed: -3
+  speed: 0
   startPos: 36.2
   endPos: -8
+  bgType: 4
 --- !u!114 &1613666822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1799,9 +1802,10 @@ MonoBehaviour:
   - {fileID: 1696308804}
   - {fileID: 2109452495}
   - {fileID: 725541394}
-  speed: -3
+  speed: -14
   startPos: 36.65
   endPos: -8
+  bgType: 3
 --- !u!114 &1613666823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,9 +1821,10 @@ MonoBehaviour:
   backgrounds:
   - {fileID: 704016932}
   - {fileID: 811769885}
-  speed: -3
+  speed: -4
   startPos: 31
   endPos: -7.95
+  bgType: 0
 --- !u!114 &1613666824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1840,9 +1845,10 @@ MonoBehaviour:
   - {fileID: 7263046}
   - {fileID: 1251046217}
   - {fileID: 694317255}
-  speed: -3
+  speed: -10
   startPos: 138
   endPos: -8.02
+  bgType: 2
 --- !u!114 &1613666825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1858,9 +1864,10 @@ MonoBehaviour:
   backgrounds:
   - {fileID: 1336619721}
   - {fileID: 513846647}
-  speed: -3
+  speed: -4
   startPos: 33
   endPos: -8
+  bgType: 1
 --- !u!1 &1696308803
 GameObject:
   m_ObjectHideFlags: 0
