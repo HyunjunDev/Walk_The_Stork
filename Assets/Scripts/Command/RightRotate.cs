@@ -11,6 +11,6 @@ public class RightRotate : Command
 
     void RightRot()
     {
-        GameManager.bs -= (GameManager.bi - 3);
+        GameManager.Instance.bs -= (GameManager.Instance.bi - 3);
     }
 }
