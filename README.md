@@ -1,14 +1,22 @@
-# Walk_The_Stork
-2학년 겨울방학 개인 프로젝트  
+# 🐓Walk_The_Stork🐓
+> 2학년 겨울방학에 모작한 프로젝트입니다.
 
-게임 제목: 황새 오래 걷기(모작)  
+![image](https://user-images.githubusercontent.com/101493216/224555399-3dcba47d-a0a7-4960-9bca-065d1ac01d4e.gif)
 
-게임 장르: 아케이드  
+---
 
-게임 설명: 황새의 균형을 잘 잡아서 최고 기록을 세우자!
-</br>
+## 🍰 서론
 
-[![유튜브영상](https://user-images.githubusercontent.com/101493216/214756327-e756c30b-b29b-4fb7-ba71-0c4f1a53cb73.png)](https://www.youtube.com/watch?v=b5yB9XqyUXM)
+- *게임 장르* : 아케이드
+- *플랫폼* : PC
+- *제작 인원* : 1 인 (개인 프로젝트)
+- *사용 엔진과 언어* : Unity, C#
+
+## 🍰 플레이 영상 보러 가기! (유튜브)
+
+- <https://www.youtube.com/watch?v=N16TVgOgxW8>
+
+---
  
 <img width="70%" src="https://user-images.githubusercontent.com/101493216/214875607-6daf47f1-7ede-4928-9ff4-e96cac2e581a.png"/>
 <img width="70%" src="https://user-images.githubusercontent.com/101493216/214875627-5d3170ae-5ce0-494b-8997-f28ea1e6a6d7.png"/>
